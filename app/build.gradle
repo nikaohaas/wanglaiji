@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.liu.cashledger'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.liu.cashledger'
+        minSdk 23
+        targetSdk 34
+        versionCode 7
+        versionName '1.1.0'
+    }
+}
